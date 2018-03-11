@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/SkippyZA/rx-amqplib#readme",
   "dependencies": {
-    "amqplib": "^0.5.2",
+    "amqplib": "^0.4.1",
     "node-uuid": "^1.4.7",
     "rx": "^4.1.0"
   },
