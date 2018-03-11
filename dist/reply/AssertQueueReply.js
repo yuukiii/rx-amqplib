@@ -1,5 +1,6 @@
 "use strict";
-var AssertQueueReply = (function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+var AssertQueueReply = /** @class */ (function () {
     function AssertQueueReply(channel, reply) {
         this.channel = channel;
         this.queue = reply.queue;
@@ -8,5 +9,4 @@ var AssertQueueReply = (function () {
     }
     return AssertQueueReply;
 }());
-Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = AssertQueueReply;

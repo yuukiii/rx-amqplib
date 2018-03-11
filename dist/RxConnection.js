@@ -1,10 +1,11 @@
 "use strict";
-var Rx = require('rx');
-var RxChannel_1 = require('./RxChannel');
+Object.defineProperty(exports, "__esModule", { value: true });
+var Rx = require("rx");
+var RxChannel_1 = require("./RxChannel");
 /**
  * Connection to AMQP server.
  */
-var RxConnection = (function () {
+var RxConnection = /** @class */ (function () {
     /**
      * Class constructor
      *
@@ -34,5 +35,4 @@ var RxConnection = (function () {
     };
     return RxConnection;
 }());
-Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = RxConnection;

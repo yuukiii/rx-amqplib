@@ -1,12 +1,13 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 /// <reference path="../typings/index.d.ts" />
-var Rx = require('rx');
-var AmqpLib = require('amqplib');
-var RxConnection_1 = require('./RxConnection');
+var Rx = require("rx");
+var AmqpLib = require("amqplib");
+var RxConnection_1 = require("./RxConnection");
 /**
  * Factory for RxAmqpLib.
  */
-var RxAmqpLib = (function () {
+var RxAmqpLib = /** @class */ (function () {
     function RxAmqpLib() {
     }
     /**
@@ -41,5 +42,4 @@ var RxAmqpLib = (function () {
     };
     return RxAmqpLib;
 }());
-Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = RxAmqpLib;

@@ -1,9 +1,9 @@
 "use strict";
-var EmptyReply = (function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+var EmptyReply = /** @class */ (function () {
     function EmptyReply(channel) {
         this.channel = channel;
     }
     return EmptyReply;
 }());
-Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = EmptyReply;

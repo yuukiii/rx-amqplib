@@ -1,8 +1,9 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * RxMessage Class
  */
-var RxMessage = (function () {
+var RxMessage = /** @class */ (function () {
     /**
      * RxMessage constructor.
      *
@@ -49,5 +50,4 @@ var RxMessage = (function () {
     };
     return RxMessage;
 }());
-Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = RxMessage;

@@ -1,10 +1,10 @@
 "use strict";
-var DeleteQueueReply = (function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+var DeleteQueueReply = /** @class */ (function () {
     function DeleteQueueReply(channel, deleteQueue) {
         this.channel = channel;
         this.messageCount = deleteQueue.messageCount;
     }
     return DeleteQueueReply;
 }());
-Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = DeleteQueueReply;

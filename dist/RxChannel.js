@@ -1,15 +1,16 @@
 "use strict";
-var Rx = require('rx');
-var AssertQueueReply_1 = require('./reply/AssertQueueReply');
-var AssertExchangeReply_1 = require('./reply/AssertExchangeReply');
-var EmptyReply_1 = require('./reply/EmptyReply');
-var RxMessage_1 = require('./RxMessage');
-var DeleteQueueReply_1 = require('./reply/DeleteQueueReply');
-var PurgeQueueReply_1 = require('./reply/PurgeQueueReply');
+Object.defineProperty(exports, "__esModule", { value: true });
+var Rx = require("rx");
+var AssertQueueReply_1 = require("./reply/AssertQueueReply");
+var AssertExchangeReply_1 = require("./reply/AssertExchangeReply");
+var EmptyReply_1 = require("./reply/EmptyReply");
+var RxMessage_1 = require("./RxMessage");
+var DeleteQueueReply_1 = require("./reply/DeleteQueueReply");
+var PurgeQueueReply_1 = require("./reply/PurgeQueueReply");
 /**
  * AMQP Rx Channel
  */
-var RxChannel = (function () {
+var RxChannel = /** @class */ (function () {
     /**
      * Class constructor.
      *
@@ -350,5 +351,4 @@ var RxChannel = (function () {
     };
     return RxChannel;
 }());
-Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = RxChannel;
