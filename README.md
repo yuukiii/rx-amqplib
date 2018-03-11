@@ -11,12 +11,12 @@ $ npm install rx-amqplib --save
 
 ## Examples
 
-Here is a basic example of creating a connection to a RabbitMQ server, creating a channel + queue and sneding a message to the queue.
+Here is a basic example of creating a connection to a RabbitMQ server, creating a channel + queue and sending a message to the queue.
 
 ```javascript
 const config = {
   queue: 'test_queue',
-  host: 'amqp://localhost'
+  host: 'amqp://127.0.0.1'
 };
 
 // Process stream
