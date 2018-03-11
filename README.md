@@ -87,7 +87,7 @@ RxAmqpLib.newConnection(config.host)
 Should you wish to build the library yourself, either for personal use, or for contribution, please ensure there are no errors emitted during the build process with `npm run build`.
 
 ```
-$ git clone git@github.com:SkippyZA/rx-amqplib.git
+$ git clone https://github.com/yuukiii/rx-amqplib.git
 $ cd rx-amqplib
 $ npm install
 $ npm run build
