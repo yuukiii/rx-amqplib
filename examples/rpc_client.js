@@ -3,7 +3,7 @@
 const RxAmqpLib = require('../');
 const UUID = require('uuid');
 const config = {
-  host: 'amqp://localhost',
+  host: 'amqp://127.0.0.1',
   queue: 'rpc_queue'
 };
 

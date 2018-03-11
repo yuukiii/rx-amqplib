@@ -4,7 +4,7 @@ const RxAmqpLib = require('../index.js');
 
 const config = {
   queue: 'test_queue',
-  host: 'amqp://localhost'
+  host: 'amqp://127.0.0.1'
 };
 
 // Process stream
